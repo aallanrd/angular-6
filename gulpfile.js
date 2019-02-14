@@ -11,3 +11,13 @@ gulp.task('default', function () {
         }))
 		.pipe(complexity({breakOnErrors: false}));
 });
+
+gulp.task('testJS', function(){
+	return gulp.src('*.js')
+		.pipe(complexity());
+});
+
+gulp.task('testHTML', function(){
+	return gulp.src('*.html')
+		.pipe(complexity());
+});
