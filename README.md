@@ -1,5 +1,7 @@
 # nba-arenas
   
+Install mongo+ Put a instance to run on port 27017
+
 Versions:
   
 Node.js: v10.1.0  
