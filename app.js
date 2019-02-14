@@ -20,6 +20,8 @@ app.use('/',express.static(path.join(__dirname, 'dist')));
 app.use('/api', apiTeams);
 app.use('/api', apiArenas);
 app.use('/api/auth', AuthController);
+//app.use('/api', apiPlayers);
+//app.use('/api', apiCity);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -55,6 +57,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/nba-arena
 //		}
 //	});
 //};
-//connectWithRetry(); 
+//connectWithRetry();
 
 module.exports = app;
