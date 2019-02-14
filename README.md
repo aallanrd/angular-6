@@ -17,3 +17,8 @@ goto: localhost:8080
 Testing with Karma 
 
 npm test 
+
+Gulpfile for complexitt testing
+
+gulp -build -a
+
