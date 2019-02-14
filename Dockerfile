@@ -1,5 +1,13 @@
 FROM node:10.13.0-alpine
 
+#For upgrade
+UN apt-get update && apt-get install -y \
+  bzr \
+  cvs \
+  git \
+  mercurial \
+  subversion
+
 # Create a directory where our app will be placed
 RUN mkdir -p /usr/src/app
 
@@ -27,6 +35,6 @@ RUN npm set unsafe-perm true
 RUN npm install --only=production
 
 
+
 EXPOSE 8080
 CMD [ "npm", "start" ]
-
