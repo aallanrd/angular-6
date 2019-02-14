@@ -19,6 +19,9 @@
          <systemFolderConfiguration>
             <url>Include/features</url>
          </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/scripts/directory</url>
+         </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
    <type>GENERIC</type>
