@@ -1,7 +1,5 @@
 # nba-arenas
   
-[![pipeline status](https://gitlab.com/lAleRojasl/nba-arenas/badges/master/pipeline.svg)](https://gitlab.com/lAleRojasl/nba-arenas/commits/master)
-
 Versions:
   
 Node.js: v10.1.0  
@@ -16,4 +14,6 @@ npm start
 
 goto: localhost:8080
   
-Deployed to Heroku -> https://nba-arenas.herokuapp.com
+Testing with Karma 
+
+npm test 
