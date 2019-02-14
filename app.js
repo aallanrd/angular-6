@@ -6,6 +6,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var apiTeams = require('./routes/teams');
 var apiArenas = require('./routes/arenas');
+var apiPlayers = require('./routes/teams');
+var apiCity = require('./routes/arenas');
 var AuthController = require('./auth/AuthController');
 
 var app = express();
